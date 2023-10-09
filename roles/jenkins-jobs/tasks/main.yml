@@ -1,4 +1,4 @@
-- name: Setup template
+- name: Setup Template
   ansible.builtin.template:
     src: pipeline.xml
     dest: /tmp/pipeline.xml
