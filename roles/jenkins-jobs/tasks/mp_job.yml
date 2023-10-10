@@ -1,6 +1,6 @@
 - name: Setup Template
   ansible.builtin.template:
-    src: sbranch.xml
+    src: mbranch.xml
     dest: /tmp/mbranch.xml
 
 - name: Create a jenkins job using basic authentication
